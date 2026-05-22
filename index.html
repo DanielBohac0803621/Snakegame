@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hra Had (Snake)</title>
+    <link rel="stylesheet" href="Ukol.css">
+    <link rel="icon" type="image/x-icon" href="../abohac/favicon.ico">
+</head>
+<body>
+
+<div id="game-container">
+    <h1>Hra Had</h1>
+
+    <div id="score-board">Skóre: <span id="score">0</span></div>
+
+    <div class="canvas-wrapper" style="position: relative;">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+        <div id="game-over-text" class="hidden">
+            <h2>Hra skončila!</h2>
+            <p>Stiskni Mezerník pro novou hru.</p>
+        </div>
+    </div>
+
+    <div id="bottom-left-text">Jedná se o školní projekt</div>
+</div>
+
+<script src="Ukol.js"></script>
+</body>
+</html>
